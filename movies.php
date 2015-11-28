@@ -19,7 +19,7 @@ if(mysqli_num_rows($result) > 0)
     {
         echo '<p>';
 
-        echo 'Title: <b>' . $row['FirTitlestName'] . '</b> ';
+        echo 'TitleMovie: <b>' . $row['TitleMovie'] . '</b> ';
         echo 'Rating: <b>' . $row['Rating'] . '</b> ';
         echo 'Realesed: <b>' . $row['Realesed'] . '</b> ';
         echo 'Description: <b>' . $row['Description'] . '</b> ';
