@@ -30,7 +30,7 @@ if(mysqli_num_rows($result) > 0)
     }   
     
 }else{//inform no records
-    echo'<p>Currently no customer records <p>';
+    echo'<p>Currently no title records <p>';
 }
     
 

@@ -181,7 +181,7 @@ class Pager
 	 * @return string the adjusted SQL statement, with 
 	 */
 	
-	public function showNav($prefix='<div align="center">',$suffix='</div>')
+	public function showNav($prefix='<p align="center">',$suffix='</p>')
 	{//creates the NAV icons for paging
 		#Receiving an error on the following line means your page didn't pass the SQL statement through the method: $sql = $myPager->loadSQL($sql);
 		if(!$this->sqlLoaded){die(trigger_error("SQL statement not processed by Pager::loadSQL()", E_USER_ERROR));}

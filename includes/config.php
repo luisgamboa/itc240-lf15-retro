@@ -63,9 +63,6 @@ switch(THIS_PAGE){
         $pageID = "Best Horror Movies";
         break;
         
-        
-        
-    
     
     default:
         $title = THIS_PAGE;    
