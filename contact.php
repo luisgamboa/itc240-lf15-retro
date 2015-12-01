@@ -70,7 +70,7 @@
         
         //confirmation that the information was sent
         if(mail($replyTo, $subject, $message)) {
-            echo "Thank you for contacting us. We will get back to you shortly.";
+            echo "Your data has been stored. Thank you for contacting us. We will get back to you shortly.";
         } 
         else echo "There was an error. Please try again.";
         
