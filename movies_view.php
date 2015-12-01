@@ -39,7 +39,7 @@ if(mysqli_num_rows($result) > 0)
     }    
 
 }else{//inform there are no records
-    $Feedback = '<p>This title does not exist</p>';
+    $Feedback = '<p>This customer does not exist</p>';
 }
 
 

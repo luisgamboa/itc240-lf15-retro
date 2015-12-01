@@ -57,16 +57,16 @@ $result = mysqli_query($iConn,$sql) or die(myerror(__FILE__,__LINE__,mysqli_erro
 if(mysqli_num_rows($result) > 0)
 {#records exist - process
 	if($myPager->showTotal()==1){$itemz = "customer";}else{$itemz = "customers";}  //deal with plural
-    echo '<p align="center">We have ' . $myPager->showTotal() . ' ' . $itemz . '!</p>';
+    echo '<div align="center">We have ' . $myPager->showTotal() . ' ' . $itemz . '!</div>';
 	while($row = mysqli_fetch_assoc($result))
 	{# process each row
-         echo '<p align="center">
+         echo '<div align="center">
             <a href="' . VIRTUAL_PATH . 'customer_view.php?id=' . (int)$row['CustomerID'] . '">' . dbOut($row['FirstName']) . '</a>
-            </p>';
+            </div>';
 	}
 	echo $myPager->showNAV(); # show paging nav, only if enough records	 
 }else{#no records
-    echo "<p align=center>What! No Customers?  There must be a mistake!!</p>";	
+    echo "<div align=center>What! No Customers?  There must be a mistake!!</div>";	
 }
 @mysqli_free_result($result);
 @mysqli_close($iConn);
