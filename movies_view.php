@@ -51,6 +51,8 @@ if(mysqli_num_rows($result) > 0)
 <?php
     
     
+    
+    
     if($Feedback == '')
     {//data exists, show it
         
