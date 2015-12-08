@@ -16,9 +16,9 @@ date_default_timezone_set('America/Los_Angeles'); #sets default date/timezone fo
  *   Contact hosting company for assistance:
  *   http://wiki.dreamhost.com/Secure_Hosting
 */
-define('VIRTUAL_PATH', 'http://lgamboa.com/itc240/sandbox/app2/'); 
+define('VIRTUAL_PATH', 'http://lgamboa.com/itc240/sandbox/app3/'); 
 
-define('PHYSICAL_PATH', '/home/luigam1/lgamboa.com/itc240/sandbox/app2/'); # Physical (PHP) 'root' of application for file & upload reference
+define('PHYSICAL_PATH', '/home/luigam1/lgamboa.com/itc240/sandbox/app3/'); # Physical (PHP) 'root' of application for file & upload reference
 
 # END GENERAL SETTINGS, START BOOTSTRAP CODE ---------------------------
 
